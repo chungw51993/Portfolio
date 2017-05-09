@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "description": "Personal Portfolio Website",
+  "main": "client/index.html",
+  "authors": [
+    "Jin Chung <chungw51993@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chungw51993/Portfolio.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "clients/assets/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3"
+  }
+}

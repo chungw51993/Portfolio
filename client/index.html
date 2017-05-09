@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+  <head>
+    <title>Jin's Portfolio</title>
+
+    <link href="assets/style/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-indigo.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display" rel="stylesheet">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link href="assets/style/client.css" rel="stylesheet" />
+
+    <script src="assets/lib/angular/angular.js"></script>
+    <script src="assets/lib/angular-route/angular-route.js"></script>
+  </head>
+  <body>
+    <div class="top">
+        <div class="header">
+          <img class="headshot" src="assets/headshot.jpg" alt="Jin Chung" >
+          <div class="name">
+            Jin Chung
+          </div>
+          <div class="title">
+            Software Engineer
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="https://github.com/chungw51993" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button">
+            <img class="github" src="http://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="github" >
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/jinchung5112/" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button">
+            <img class="linkedin" src="https://img.clipartfest.com/ab3ffab26436081b2cc745545124d7f7_linkedin-logo-transparent-linkedin-clipart-transparent-background_980-980.png" alt="linkedin" >
+            LinkedIn
+          </a>
+          <a href="assets/JinResume.pdf" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button" download>
+            <img class="resume" src="http://www.freeiconspng.com/uploads/resume-icon-png-1.png" alt="resume">
+            Resume
+          </a>
+        </div>
+    </div>
+
+    <div class="tab"></div>
+
+    <main></main>
+
+    <script src="main/main.js"></script>
+    <script src="project/project.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
