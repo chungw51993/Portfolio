@@ -25,6 +25,6 @@ app.use((err, req, res) => {
   res.status(status).send(err.message);
 });
 
-app.listen(8001, () => {
-  console.log('Server is listening on port 8001!');
+app.listen(8080, () => {
+  console.log('Server is listening on port 8080!');
 });
