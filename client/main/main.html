@@ -5,6 +5,11 @@
         <strong class="greeting">{{ info.greeting }}</strong>
         <p class="about">{{ info.about }}</p>
         <p class="experience">{{ info.experience }}</p>
+        <project
+          ng-repeat="project in info.projects"
+          project="project"
+          >
+        </project>
       </div>
     </div>
   </div>

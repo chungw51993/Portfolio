@@ -6,7 +6,9 @@ angular.module('portfolio.project', [])
 .directive('project', function() {
   return {
     restrict: 'E',
-    scope: {},
+    scope: {
+      project: '<'
+    },
     templateUrl: '/project/project.html',
     controller: 'ProjectCtrl',
     controllerAs: 'info'

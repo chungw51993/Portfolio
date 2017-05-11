@@ -24,6 +24,14 @@ img.resume {
   height: 28px;
 }
 
+img.project-img {
+  width: 250px;
+  height: 200px;
+}
+
+img.git {
+  width: 30px;
+}
 /* container styling */
 div.header {
   display: flex;
@@ -109,3 +117,27 @@ p.about {
   text-align: justify;
 }
 
+/* card styling */
+.project-card {
+  width: 750px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.project-card.CardCast > .mdl-card__title {
+  color: black;
+  height: 200px;
+  background: url('/assets/cardcast.png') center/cover;
+}
+
+.project-card.Echoes > .mdl-card__title {
+  color: white;
+  height: 200px;
+  background: url('/assets/echoes.png') center/cover;
+}
+
+.project-card.SurveyScribe > .mdl-card__title {
+  color: black;
+  height: 200px;
+  background: url('/assets/surveyscribe.png') center/cover;
+}
