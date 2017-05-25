@@ -1,0 +1,8 @@
+<ng-fader captures="info.images"></ng-fader>
+<div class="apps container">
+  <div class="title">{{ info.project.title }}</div>
+  <div class="description">{{ info.project.description }}</div>
+  <ul ng-repeat="tech in info.project.tech">
+    <li>{{ tech }}</li>
+  </ul>
+</div>

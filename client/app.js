@@ -1,7 +1,13 @@
 angular.module('portfolio', [
   'ngRoute',
+  'ngAnimate',
+  'ngTouch',
+  'ngFader',
   'portfolio.main',
-  'portfolio.project'
+  'portfolio.about',
+  'portfolio.cardcast',
+  'portfolio.echoes',
+  'portfolio.surveyscribe',
 ])
 
 .config(function($routeProvider, $locationProvider) {

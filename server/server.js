@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 
 app.use('/', client);
 
-app.use(express.static(path.join(__dirname, '../client/')));
+app.use(express.static(path.join(__dirname, '../client')));
 
 app.use((req, res, next) => {
   const error = new Error('ERROR 404 can\'t find what you are looking for please try another URL!');
