@@ -18,8 +18,7 @@ div.info.container {
 }
 
 div.apps.container {
-  display: flex;
-  flex-direction: column;
+  margin-top: 30px;
 }
 
 h1.name {
@@ -37,4 +36,48 @@ h3.title {
 
 h3.heading {
   font-family: 'Playfair Display', serif;
+}
+
+/* Slideshow Styling */
+.ng-fader {
+  width: 950px;
+  margin: auto !important;
+}
+
+/* Projects Slide Styling */
+div.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  margin-top: 12px;
+}
+
+a.demo {
+  text-decoration: none;
+}
+
+a.code {
+  margin: 0 20px 20px 50px;
+  text-decoration: none;
+}
+
+div.description {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+}
+
+div.techs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+p.tech {
+  margin-right: 20px;
+  border-color: indianred;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: indianred;
+  opacity: .9;
+  color: white;
 }

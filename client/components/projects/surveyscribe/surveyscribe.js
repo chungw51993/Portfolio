@@ -3,8 +3,8 @@ angular.module('portfolio.surveyscribe', [])
 .controller('SurveyCtrl', function() {
   this.project = {
     title: 'SurveyScribe',
-    description: 'A survey app where you can build a survey, send the link to participants, and analyze their responses.',
-    tech: ['MongoDB', 'Express', 'ReactJS', 'Redux', 'Nodejs', 'Mocha/Chai'],
+    description: 'SurveyScribe is a survey application where you can build a survey, send the link to participants, and analyze their responses. You will be able to create a survey with multiple choice, slider, and short answer questions. You can make questions to be required and limit how many choices user can make. To share your survey all you need to do is copy the url of the answer page and anybody can get on the page to submit their answers. After you had some answers submitted you can visit the result page to see the bar graphs and list of short answers.',
+    tech: ['JavaScript','MongoDB', 'Express', 'ReactJS', 'Redux', 'Nodejs', 'Mocha/Chai'],
     url: 'surveyscribe.wjchung.com',
     github: 'https://github.com/chungw51993/surveyscribe'
   }
