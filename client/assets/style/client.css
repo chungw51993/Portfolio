@@ -80,7 +80,7 @@ div.description {
 div.techs {
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 p.tech {
