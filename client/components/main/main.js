@@ -1,8 +1,5 @@
 angular.module('portfolio.main', [])
 
-.controller('MainCtrl', function() {
-
-})
 .directive('main', function() {
   return {
     restrict: 'E',

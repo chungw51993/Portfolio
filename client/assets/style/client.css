@@ -1,11 +1,7 @@
+/* Landing Slide Styling */
 div.intro {
   background-image: url('/assets/topbackground.jpg');
   background-size: cover;
-}
-
-div.about {
-  background-color: black;
-  color: white;
 }
 
 div.land {
@@ -13,7 +9,11 @@ div.land {
   flex-direction: column;
 }
 
-/* Landing Slide Styling */
+hr {
+  width: 800px;
+  margin: auto;
+}
+
 h1.name {
   margin: auto;
   font-family: 'Lora', serif;
@@ -27,7 +27,41 @@ h3.title {
   color: floralwhite;
 }
 
+a.arrow {
+  text-decoration: none;
+  color: white;
+}
+
+p.land {
+  color: white;
+  position: relative;
+  top: 350px;
+  margin: auto;
+  font-size: 17px;
+  font-family: 'Lora', serif;
+}
+
+p.arrow {
+  position: relative;
+  top: 355px;
+  margin: auto;
+}
+
+i.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 /* About Slide Styling */
+div.about {
+  background-color: black;
+  color: white;
+}
+
 img.headshot {
   width: 300px;
   height: 300px;
