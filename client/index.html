@@ -26,18 +26,18 @@
       <div class="section about"><about></about></div>
       <div class="section skills">SKILLS</div>
       <div class="section projects">
-        <div class="slide"><cardcast></cardcast></div>
-        <div class="slide"><echoes></echoes></div>
-        <div class="slide"><surveyscribe></surveyscribe></div>
+        <div class="slide" data-anchor="cardcast"><cardcast></cardcast></div>
+        <div class="slide" data-anchor="echoes"><echoes></echoes></div>
+        <div class="slide" data-anchor="surveyscribe"><surveyscribe></surveyscribe></div>
       </div>
-      <div class="section ">CONTACT</div>
+      <div class="section">CONTACT</div>
     </div>
 
     <ul id="menu">
       <li data-menuanchor="intro" class="active"><a href="#intro">Intro</a></li>
       <li data-menuanchor="about"><a href="#about">About</a></li>
       <li data-menuanchor="skills"><a href="#skills">Skills</a></li>
-      <li data-menuanchor="projects"><a href="#projects">Applications</a></li>
+      <li data-menuanchor="applications"><a href="#applications">Applications</a></li>
       <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
     </ul>
 
@@ -46,12 +46,17 @@
         $('#fullpage').fullpage({
           controlArrows: true,
           sectionsColor: ['black', '', '#7BAABE', 'whitesmoke', 'darkgray'],
-          anchors: ['intro', 'about', 'skills', 'projects', 'contact'],
+          anchors: ['intro', 'about', 'skills', 'applications', 'contact'],
+          lockAnchors: true,
           menu: '#menu',
           navigation: true,
           navigationPosition: 'right',
           navigationTooltips: ['Intro', 'About', 'Skills', 'Applications', 'Contact']
         });
+      });
+
+      $(document).on('click', '#moveDown', function() {
+        $.fn.fullpage.moveSectionDown();
       });
     </script>
     <script src="components/ngFader.js"></script>

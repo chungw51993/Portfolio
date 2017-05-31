@@ -9,7 +9,7 @@ div.land {
   flex-direction: column;
 }
 
-hr {
+hr.land {
   width: 800px;
   margin: auto;
 }
@@ -27,7 +27,7 @@ h3.title {
   color: floralwhite;
 }
 
-a.arrow {
+a#moveDown {
   text-decoration: none;
   color: white;
 }
@@ -70,6 +70,22 @@ img.headshot {
 
 h3.heading {
   font-family: 'Playfair Display', serif;
+}
+
+div.subhead {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+hr.about {
+  width: 50px;
+  border-color: #e5ea7a;
+  border-width: 5px;
+}
+
+p.intro {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
 /* Skill Slide Styling */

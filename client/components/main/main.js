@@ -5,7 +5,7 @@ angular.module('portfolio.main', [])
     restrict: 'E',
     scope: {},
     templateUrl: '/components/main/main.html',
-    controller: 'MainCtrl',
+    controller: function(){},
     controllerAs: 'info'
   }
 })
