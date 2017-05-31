@@ -21,12 +21,6 @@ h1.name {
   color: whitesmoke;
 }
 
-h3.title {
-  margin: auto;
-  font-family: 'Lora', serif;
-  color: floralwhite;
-}
-
 a#moveDown {
   text-decoration: none;
   color: white;
@@ -58,14 +52,23 @@ i.arrow {
 
 /* About Slide Styling */
 div.about {
-  background-color: black;
+  background-color: rgb(37, 35, 35);
   color: white;
+}
+
+h3.title {
+  margin: auto;
+  font-family: 'Lora', serif;
+  color: floralwhite;
+  font-size: 40px;
 }
 
 img.headshot {
   width: 300px;
   height: 300px;
   border-radius: 150px;
+  position: relative;
+  top: 75px;
 }
 
 h3.heading {
@@ -85,7 +88,17 @@ hr.about {
 
 p.intro {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+p.mid {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+p.conclude {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 
 /* Skill Slide Styling */
