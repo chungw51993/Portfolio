@@ -1,7 +1,7 @@
 <div class="con">
   <div class="conbg"></div>
   <h3 class="conhead">Get In Touch With Me</h3>
-  <p class="conbody col-md-6">If you have a great idea for an application or just want to get in contact with me please fill out the form and send me a message!</p>
+  <p class="conbody col-md-6 col-sm-8">If you have a great idea for an application or just want to get in contact with me please fill out the form and send me a message!</p>
   <form class="email" ng-submit="info.handleSubmit()">
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label label">
       <input type="text" name="name" id="name" class="mdl-textfield__input name" ng-model="info.name">
@@ -27,4 +27,9 @@
     <a href="assets/JinResume.pdf" target="_blank" class="fa fa-file-text">
     </a>
   </div>
+</div>
+
+<div id="snackbar" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
 </div>

@@ -127,6 +127,10 @@ div.apps {
   margin-top: 30px;
 }
 
+div.info {
+  margin-bottom: 20px
+}
+
 div.title {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
@@ -138,7 +142,7 @@ a.demo {
 }
 
 a.code {
-  margin: 0 20px 20px 50px;
+  margin: 0 20px 0 50px;
   text-decoration: none;
 }
 
@@ -212,7 +216,8 @@ input {
 }
 
 label {
-  color: #3f93e0 !important; }
+  color: #3f93e0 !important;
+}
 
 textarea {
   width: 530px !important;
@@ -232,7 +237,7 @@ a.fa {
   border-radius: 50%;
   margin-left: 20px;
   position: absolute;
-  top: 100px;
+  top: 60px;
 }
 
 a.fa:hover {
@@ -255,4 +260,36 @@ a.fa-file-text {
   background-color: red;
   color: white;
   left: 45px;
+}
+
+div.snackbar {
+  position: absolute;
+  border-style: solid;
+  border-color: #003dea;
+  background-color: #003dea;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  top: 10px;
+  left: -250px;
+  text-align: center;
+  animation: fadeinout 4s linear forwards;
+  -webkit-animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+div.snackbar p {
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
 }
