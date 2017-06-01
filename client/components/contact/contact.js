@@ -13,13 +13,14 @@ angular.module('portfolio.contact', [])
       subject: this.subject,
       message_html: this.message
     }
-    emailjs.send('jin_sgmail', 'jin_stemplate', message)
-      .then((response) => {
-        console.log('SUCCESSFUL: ', response);
-      }, (error) => {
-        console.error("FAILED TO SEND: ", error);
-      })
+    // emailjs.send('jin_sgmail', 'jin_stemplate', message)
+    //   .then((response) => {
+    //     console.log('SUCCESSFUL: ', response);
+    //   }, (error) => {
+    //     console.error("FAILED TO SEND: ", error);
+    //   })
     let snackbarContainer = document.querySelector('#snackbar');
+    console.log(snackbarContainer.MaterialSnackbar);
     let data = {
       message: 'Thank you for sending me a message!',
       timeout: 2000,
