@@ -30,6 +30,7 @@ angular.module('portfolio.cardcast', [])
     scope: {},
     templateUrl: '/components/projects/cardcast/cardcast.html',
     controller: 'CardCtrl',
-    controllerAs: 'info'
+    controllerAs: 'info',
+    bindToController: true
   }
 })

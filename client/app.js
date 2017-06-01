@@ -8,6 +8,8 @@ angular.module('portfolio', [
   'portfolio.cardcast',
   'portfolio.echoes',
   'portfolio.surveyscribe',
+  'portfolio.contact',
+  'portfolio.skills'
 ])
 
 .config(function($routeProvider, $locationProvider) {

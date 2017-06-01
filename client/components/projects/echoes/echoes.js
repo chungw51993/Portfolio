@@ -30,6 +30,7 @@ angular.module('portfolio.echoes', [])
     scope: {},
     templateUrl: '/components/projects/echoes/echoes.html',
     controller: 'EchoesCtrl',
-    controllerAs: 'info'
+    controllerAs: 'info',
+    bindToController: true
   }
 })

@@ -4,7 +4,7 @@
     <title>Jin Chung's Webpage</title>
 
     <link href="assets/style/bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-indigo.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-indigo.min.css" />
     <link rel="stylesheet" href="assets/lib/fullpage.js/dist/jquery.fullpage.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli|Raleway" rel="stylesheet">
@@ -18,19 +18,25 @@
     <script src="assets/lib/angular-touch/angular-touch.js"></script>
     <script src="assets/lib/jquery/dist/jquery.min.js"></script>
     <script src="assets/lib/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function() {
+         emailjs.init('user_T7E6IIFSqxECxobYFdm8V');
+       })();
+    </script>
   </head>
   <body>
 
     <div id="fullpage">
       <div class="section intro"><main></main></div>
       <div class="section about"><about></about></div>
-      <div class="section skills">SKILLS</div>
+      <div class="section skills"><skills></skills></div>
       <div class="section projects">
         <div class="slide" data-anchor="cardcast"><cardcast></cardcast></div>
         <div class="slide" data-anchor="echoes"><echoes></echoes></div>
         <div class="slide" data-anchor="surveyscribe"><surveyscribe></surveyscribe></div>
       </div>
-      <div class="section">CONTACT</div>
+      <div class="section contact"><contact></contact></div>
     </div>
 
     <ul id="menu">
@@ -45,7 +51,7 @@
       $(document).ready(function() {
         $('#fullpage').fullpage({
           controlArrows: true,
-          sectionsColor: ['black', '', '#7BAABE', 'whitesmoke', 'darkgray'],
+          sectionsColor: ['', '', '', 'whitesmoke', ''],
           anchors: ['intro', 'about', 'skills', 'applications', 'contact'],
           lockAnchors: true,
           menu: '#menu',
@@ -60,6 +66,8 @@
       });
     </script>
     <script src="components/ngFader.js"></script>
+    <script src="components/skills/skills.js"></script>
+    <script src="components/contact/contact.js"></script>
     <script src="components/projects/cardcast/cardcast.js"></script>
     <script src="components/projects/echoes/echoes.js"></script>
     <script src="components/projects/surveyscribe/surveyscribe.js"></script>

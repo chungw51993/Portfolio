@@ -33,6 +33,7 @@ angular.module('portfolio.surveyscribe', [])
     scope: {},
     templateUrl: '/components/projects/surveyscribe/surveyscribe.html',
     controller: 'SurveyCtrl',
-    controllerAs: 'info'
+    controllerAs: 'info',
+    bindToController: true
   }
 })
