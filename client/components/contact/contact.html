@@ -2,23 +2,29 @@
   <div class="conbg"></div>
   <h3 class="conhead">Get In Touch With Me</h3>
   <p class="conbody col-md-6">If you have a great idea for an application or just want to get in contact with me please fill out the form and send me a message!</p>
-  <form class="col-md-6 email" ng-submit="info.handleSubmit()">
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  <form class="email" ng-submit="info.handleSubmit()">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label label">
       <input type="text" name="name" id="name" class="mdl-textfield__input name" ng-model="info.name">
       <label class="mdl-textfield__label" for="name">Name</label>
     </div>
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label label">
       <input type="text" name="email" id="email" class="mdl-textfield__input email" ng-model="info.email">
       <label class="mdl-textfield__label" for="email">Email</label>
     </div>
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label label">
       <input type="text" name="subject" id="subject" class="mdl-textfield__input subject" ng-model="info.subject">
       <label class="mdl-textfield__label" for="subject">Subject</label>
     </div>
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label label">
       <textarea class="mdl-textfield__input message" type="text" id="message" ng-model="info.message"></textarea>
       <label class="mdl-textfield__label" for="message">Message</label>
     </div>
     <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" name="Submit">
   </form>
+  <div class="button">
+    <a href="https://github.com/chungw51993" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/jinchung5112/" class="fa fa-linkedin"></a>
+    <a href="assets/JinResume.pdf" target="_blank" class="fa fa-file-text">
+    </a>
+  </div>
 </div>
