@@ -31,7 +31,7 @@ angular.module('portfolio.surveyscribe', [])
   return {
     restrict: 'E',
     scope: {},
-    templateUrl: '/components/projects/surveyscribe/surveyscribe.html',
+    templateUrl: '/components/projects/project.html',
     controller: 'SurveyCtrl',
     controllerAs: 'info',
     bindToController: true

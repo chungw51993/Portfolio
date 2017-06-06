@@ -28,7 +28,7 @@ angular.module('portfolio.echoes', [])
   return {
     restrict: 'E',
     scope: {},
-    templateUrl: '/components/projects/echoes/echoes.html',
+    templateUrl: '/components/projects/project.html',
     controller: 'EchoesCtrl',
     controllerAs: 'info',
     bindToController: true

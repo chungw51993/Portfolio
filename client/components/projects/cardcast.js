@@ -28,7 +28,7 @@ angular.module('portfolio.cardcast', [])
   return {
     restrict: 'E',
     scope: {},
-    templateUrl: '/components/projects/cardcast/cardcast.html',
+    templateUrl: '/components/projects/project.html',
     controller: 'CardCtrl',
     controllerAs: 'info',
     bindToController: true

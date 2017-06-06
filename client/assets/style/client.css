@@ -116,6 +116,28 @@ div.skillbg {
   height: 100%;
 }
 
+h2.skillhead {
+  font-family: 'Lora', serif;
+  color: #9da07d;
+}
+
+div.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 20px;
+  color: #9da07d;
+  border-style: solid;
+}
+
+div.frame {
+  display: flex;
+  margin-bottom: 100px;
+}
+
 /* Slideshow Styling */
 .ng-fader {
   width: 950px;
@@ -228,7 +250,7 @@ div.button {
   position: relative;
 }
 
-a.fa {
+a.con.fa {
   padding: 20px;
   font-size: 30px;
   width: 68px;
