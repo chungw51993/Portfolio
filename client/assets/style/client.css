@@ -111,14 +111,25 @@ div.skillbg {
   right: 0;
   background-image: url('/assets/skillbackground.jpg');
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100%;
   height: 100%;
 }
 
 h2.skillhead {
   font-family: 'Lora', serif;
-  color: #9da07d;
+  color: #0a282f;
+}
+
+hr.skill {
+  width: 100px;
+  border-color: #00ffe4;
+  border-width: 5px;
+  margin-bottom: 20px;
+}
+
+div.listhead {
+  margin-bottom: 25px;
 }
 
 div.fa {
@@ -128,14 +139,57 @@ div.fa {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-left: 20px;
-  color: #9da07d;
+  color: #0a282f;
   border-style: solid;
 }
 
-div.frame {
+div.list {
   display: flex;
-  margin-bottom: 100px;
+  flex-direction: row;
+}
+
+p.subhead {
+  display: inline;
+  font-size: 30px;
+  color: #0a282f;
+  margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+div.dev {
+  padding-top: 41px;
+  margin-right: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #0a282f;
+  border-style: solid;
+  border-color: rgba(3, 19, 21, 0.53);
+}
+
+div.items {
+  margin: 0 -30px 20px 0;
+}
+
+i.fa {
+  margin-right: 10px;
+}
+
+ul.skill {
+  margin-top: 25px;
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 20px -35px;
 }
 
 /* Slideshow Styling */

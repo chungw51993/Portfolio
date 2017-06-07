@@ -9,7 +9,8 @@ angular.module('portfolio', [
   'portfolio.echoes',
   'portfolio.surveyscribe',
   'portfolio.contact',
-  'portfolio.skills'
+  'portfolio.skills',
+  'portfolio.portfolio'
 ])
 
 .config(function($routeProvider, $locationProvider) {
