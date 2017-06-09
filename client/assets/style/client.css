@@ -69,7 +69,7 @@ div.aboutbody {
 
 img.headshot {
   width: 100%;
-  border-radius: 150px;
+  border-radius: 50%;
   position: relative;
   top: 75px;
 }
@@ -198,7 +198,7 @@ li {
 /* Slideshow Styling */
 .ng-fader {
   width: 80%;
-  margin: auto auto 50px auto !important;
+  margin: auto auto 20px auto !important;
 }
 
 /* Projects Slide Styling */
