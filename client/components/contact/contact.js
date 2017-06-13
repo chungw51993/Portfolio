@@ -11,7 +11,7 @@ angular.module('portfolio.contact', ['ngSanitize'])
     let data = {
       message: 'You didn\'t fill out the form completely.',
       timeout: 2000
-    }
+    };
 
     if (this.name !== '' || this.email !== '' || this.subject !== '' || this.message !== '') {
       let message = {
@@ -19,8 +19,8 @@ angular.module('portfolio.contact', ['ngSanitize'])
         from_email: $sanitize(this.email),
         subject: $sanitize(this.subject),
         message_html: $sanitize(this.message)
-      }
-      emailjs.send('jin_sgmail', 'jin_stemplate', message)
+      };
+      emailjs.send('jin_sgmail', 'jin_stemplate', message);
       let data = {
         message: 'Thank you for sending me a message!',
         timeout: 2000
@@ -33,7 +33,7 @@ angular.module('portfolio.contact', ['ngSanitize'])
     } else {
       snackbarContainer.MaterialSnackbar.showSnackbar(data);
     }
-  }
+  };
 })
 .directive('contact', function() {
   return {
@@ -42,5 +42,5 @@ angular.module('portfolio.contact', ['ngSanitize'])
     controller: 'ContactCtrl',
     controllerAs: 'info',
     bindToController: true
-  }
-})
+  };
+});

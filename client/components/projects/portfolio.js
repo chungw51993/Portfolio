@@ -7,7 +7,7 @@ angular.module('portfolio.portfolio', [])
     tech: ['JavaScript', 'AngularJS', 'Nodejs', 'Express', 'Bootstrap', 'MDL'],
     url: 'www.wjchung.com',
     github: 'https://github.com/chungw51993/Portfolio'
-  }
+  };
 
   this.images = [{
     src: '/assets/portfolio/1.png',
@@ -18,7 +18,7 @@ angular.module('portfolio.portfolio', [])
   }, {
     src: '/assets/portfolio/3.png',
     alt: 'Skills Page'
-  }]
+  }];
 })
 .directive('portfolio', function() {
   return {
@@ -28,5 +28,5 @@ angular.module('portfolio.portfolio', [])
     controller: 'PortCtrl',
     controllerAs: 'info',
     bindToController: true
-  }
-})
+  };
+});

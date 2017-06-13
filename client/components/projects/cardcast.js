@@ -7,7 +7,7 @@ angular.module('portfolio.cardcast', [])
     tech: ['JavaScript', 'MongoDB', 'Express', 'AngularJS', 'Nodejs', 'Google Cast SDK'],
     url: 'cardcast.wjchung.com',
     github: 'https://github.com/chungw51993/cardcast'
-  }
+  };
 
   this.images = [{
     src: '/assets/cardcast/1.png',
@@ -21,7 +21,7 @@ angular.module('portfolio.cardcast', [])
   }, {
     src: '/assets/cardcast/4.png',
     alt: 'Edit Card Page'
-  }]
+  }];
 
 })
 .directive('cardcast', function() {
@@ -32,5 +32,5 @@ angular.module('portfolio.cardcast', [])
     controller: 'CardCtrl',
     controllerAs: 'info',
     bindToController: true
-  }
-})
+  };
+});

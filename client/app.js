@@ -10,12 +10,6 @@ angular.module('portfolio', [
   'portfolio.surveyscribe',
   'portfolio.contact',
   'portfolio.skills',
-  'portfolio.portfolio'
-])
-
-.config(function($routeProvider, $locationProvider) {
-  $locationProvider.html5Mode({
-    enabled: true,
-    requireBase: false
-  });
-})
+  'portfolio.portfolio',
+  'portfolio.localseller'
+]);

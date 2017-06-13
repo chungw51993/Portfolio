@@ -4,5 +4,5 @@ angular.module('portfolio.skills', [])
   return {
     restrict: 'E',
     templateUrl: '/components/skills/skills.html'
-  }
-})
+  };
+});

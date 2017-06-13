@@ -4,5 +4,5 @@ angular.module('portfolio.about', [])
   return {
     restrict: 'E',
     templateUrl: '/components/about/about.html'
-  }
-})
+  };
+});
