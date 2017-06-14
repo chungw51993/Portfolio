@@ -34,6 +34,8 @@ angular.module('portfolio.contact', ['ngSanitize'])
       snackbarContainer.MaterialSnackbar.showSnackbar(data);
     }
   };
+
+  componentHandler.upgradeAllRegistered();
 })
 .directive('contact', function() {
   return {

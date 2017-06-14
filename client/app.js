@@ -11,12 +11,4 @@ angular.module('portfolio', [
   'portfolio.skills',
   'portfolio.portfolio',
   'portfolio.localseller'
-])
-
-.run(function($rootScope, $timeout) {
-  $rootScope.$on('$viewContentLoaded', function() {
-    $timeout(function() {
-      componentHandler.upgradeAllRegistered();
-    });
-  });
-});
+]);
