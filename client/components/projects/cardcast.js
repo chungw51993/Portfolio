@@ -5,7 +5,7 @@ angular.module('portfolio.cardcast', [])
     title: 'CardCast',
     description: 'CardCast is a simple chromecast application for collaborative presentations. Each user creates their deck of cards(slides) which can be customized by using markdown in the text box. You will be able to preview what your markdown will look like when you are creating your slides. Once you have a card you can cast it to your Chromecast and show it on a big screen. Anybody that is connected to the Chromecast will be able to cast their card anytime they want to. CardCast is a great tool for brainstorming session, daily standup meeting and even parties!',
     tech: ['JavaScript', 'MongoDB', 'Express', 'AngularJS', 'Nodejs', 'Google Cast SDK'],
-    url: 'cardcast.wjchung.com',
+    url: 'http://cardcast.wjchung.com',
     github: 'https://github.com/chungw51993/cardcast'
   };
 

@@ -5,7 +5,7 @@ angular.module('portfolio.localseller', [])
     title: 'Local Seller Listing',
     description: 'This was the first application that I made using AngularJS. You can search for anything you want to buy and it shows you a list of sellers in the area. I am grabing the data from the craigslist so when you click go to the url it will take you to the actual post in craigslist.',
     tech: ['JavaScript', 'AngularJS', 'Nodejs', 'Express'],
-    url: 'www.wjchung.com',
+    url: 'http://localseller.wjchung.com',
     github: 'https://github.com/chungw51993/localsellerlisting'
   };
 
