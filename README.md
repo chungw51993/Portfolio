@@ -17,4 +17,4 @@ bower install
 npm start
 ```
 
-Go to localhost:8080 to see the website or simply visit my deployed [website](http://www.wjchung.com)!
+Go to localhost:8080 to see the website or simply visit my deployed [website](http://portfolio.wjchung.com)!
