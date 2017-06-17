@@ -1,4 +1,4 @@
-angular.module('portfolio.contact', ['ngSanitize'])
+angular.module('portfolio')
 
 .controller('ContactCtrl', function($sanitize) {
   this.name = '';

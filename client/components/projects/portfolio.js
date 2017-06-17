@@ -1,4 +1,4 @@
-angular.module('portfolio.portfolio', [])
+angular.module('portfolio')
 
 .controller('PortCtrl', function() {
   this.project = {

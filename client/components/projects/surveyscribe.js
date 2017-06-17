@@ -1,4 +1,4 @@
-angular.module('portfolio.surveyscribe', [])
+angular.module('portfolio')
 
 .controller('SurveyCtrl', function() {
   this.project = {

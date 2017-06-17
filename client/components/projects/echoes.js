@@ -1,4 +1,4 @@
-angular.module('portfolio.echoes', [])
+angular.module('portfolio')
 
 .controller('EchoesCtrl', function() {
   this.project = {

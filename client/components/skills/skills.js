@@ -1,4 +1,4 @@
-angular.module('portfolio.skills', [])
+angular.module('portfolio')
 
 .directive('skills', function() {
   return {

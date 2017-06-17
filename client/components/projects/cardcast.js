@@ -1,4 +1,4 @@
-angular.module('portfolio.cardcast', [])
+angular.module('portfolio')
 
 .controller('CardCtrl', function() {
   this.project = {

@@ -1,4 +1,4 @@
-angular.module('portfolio.localseller', [])
+angular.module('portfolio')
 
 .controller('LocalCtrl', function() {
   this.project = {

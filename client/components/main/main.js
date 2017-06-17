@@ -1,4 +1,4 @@
-angular.module('portfolio.main', [])
+angular.module('portfolio')
 
 .directive('main', function() {
   return {
