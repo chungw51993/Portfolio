@@ -42,14 +42,6 @@
       <div class="section contact"><contact></contact></div>
     </div>
 
-    <ul id="menu">
-      <li data-menuanchor="intro" class="active"><a href="#intro">Intro</a></li>
-      <li data-menuanchor="about"><a href="#about">About</a></li>
-      <li data-menuanchor="skills"><a href="#skills">Skills</a></li>
-      <li data-menuanchor="applications"><a href="#applications">Applications</a></li>
-      <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-    </ul>
-
     <div id="snackbar" class="mdl-js-snackbar mdl-snackbar">
       <div class="mdl-snackbar__text"></div>
       <button class="mdl-snackbar__action" type="button"></button>
@@ -66,7 +58,9 @@
           navigation: true,
           navigationPosition: 'right',
           navigationTooltips: ['Intro', 'About', 'Skills', 'Applications', 'Contact'],
-          fixedElements: '#snackbar'
+          fixedElements: '#snackbar',
+          autoScrolling: false,
+          responsiveHeight: 30,
         });
       });
 
