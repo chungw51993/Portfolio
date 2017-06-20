@@ -54,6 +54,7 @@ i.arrow {
 div.about {
   background-color: rgb(37, 35, 35);
   color: white;
+  height: 900px !important;
 }
 
 h3.title {
@@ -105,6 +106,10 @@ p.conclude {
 }
 
 /* Skill Slide Styling */
+div.skills {
+  height: 900px !important;
+}
+
 div.skillbg {
   position: absolute;
   z-index: -1;
@@ -202,6 +207,10 @@ li {
 }
 
 /* Projects Slide Styling */
+div.projects {
+  height: 900px !important;
+}
+
 div.apps {
   margin-top: 30px;
 }
@@ -248,6 +257,10 @@ p.tech {
 }
 
 /* Contact Styling */
+div.contact {
+  height: 900px !important;
+}
+
 div.conbg {
   position: absolute;
   z-index: -1;
