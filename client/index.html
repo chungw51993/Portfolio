@@ -50,7 +50,7 @@
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          controlArrows: true,
+          controlArrows: false,
           sectionsColor: ['', '', '', 'whitesmoke', ''],
           anchors: ['intro', 'about', 'skills', 'applications', 'contact'],
           lockAnchors: true,
@@ -60,6 +60,7 @@
           navigationTooltips: ['Intro', 'About', 'Skills', 'Applications', 'Contact'],
           fixedElements: '#snackbar',
           autoScrolling: false,
+          fitToSection: false
         });
       });
 
