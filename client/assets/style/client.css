@@ -207,10 +207,6 @@ li {
 }
 
 /* Projects Slide Styling */
-div.projects {
-  height: 900px !important;
-}
-
 div.apps {
   margin-top: 30px;
 }
@@ -251,6 +247,8 @@ p.tech {
   border-color: indianred;
   border-style: solid;
   border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: indianred;
   opacity: .9;
   color: white;

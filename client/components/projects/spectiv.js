@@ -3,8 +3,8 @@ angular.module('portfolio')
 .controller('SpectivCtrl', function() {
   this.project = {
     title: 'Spectiv VR Platform',
-    description: '',
-    tech: ['JavaScript', 'React', 'Redux', 'PostgreSQL', 'Redis', 'Node', 'Express', 'Algolia'],
+    description: 'Spectiv is a decentralized and dedicated virtual reality streaming platform that is based on attention market token. The platform uses blockchain based attention market to support widespread adoption of virtual reality. The platform also utilizes blockchain integrated attention markets to supports virtual reality adoption network. Some of the main features of the platform include VR streaming of sports and events and gives users the chance to participate at home. It is community-driven, which enables users to stream videos with their VR equipment.',
+    tech: ['JavaScript', 'React', 'Redux', 'PostgreSQL', 'Redis', 'Node', 'Express', 'Algolia', 'Jest'],
     url: 'https://www.spectivvr.tv',
     github: 'https://github.com/DmsChrisPena/SpectivVR-web'
   };
