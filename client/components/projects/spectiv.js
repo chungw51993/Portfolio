@@ -3,7 +3,7 @@ angular.module('portfolio')
 .controller('SpectivCtrl', function() {
   this.project = {
     title: 'Spectiv VR Platform',
-    description: 'This was the first application that I made using AngularJS. You can search for anything you want to buy and it shows you a list of sellers in the area. I am grabing the data from the craigslist so when you click go to the url it will take you to the actual post in craigslist.',
+    description: '',
     tech: ['JavaScript', 'React', 'Redux', 'PostgreSQL', 'Redis', 'Node', 'Express', 'Algolia'],
     url: 'https://www.spectivvr.tv',
     github: 'https://github.com/DmsChrisPena/SpectivVR-web'
@@ -13,9 +13,14 @@ angular.module('portfolio')
     src: '/assets/spectiv/1.png',
     alt: 'Home Page',
   }, {
-
+    src: '/assets/spectiv/2.png',
+    alt: 'Home Page',
   }, {
-
+    src: '/assets/spectiv/3.png',
+    alt: 'Video Page',
+  }, {
+    src: '/assets/spectiv/4.png',
+    alt: 'Channel Page',
   }];
 })
 .directive('spectivvr', function() {
