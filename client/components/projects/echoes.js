@@ -4,7 +4,7 @@ angular.module('portfolio')
   this.project = {
     title: 'Echoes',
     description: 'Echoes is a music journal app where you can record and keep track of all your music reviews. In echoes you can follow other users in the app to see their music journal and read the reviews they left. You will have a feed page that lists recent music reviews by users you are following and your own reviews. You can also visit user\'s profile page to follow and see all their reviews.',
-    tech: ['JavaScript', 'PostgreSQL', 'Express', 'ReactJS', 'Nodejs', 'iTunes API'],
+    tech: ['JavaScript', 'PostgreSQL', 'Express', 'React', 'Node', 'iTunes API'],
     url: 'http://echoes.tylerholtzer.com',
     github: 'https://github.com/chungw51993/echoes'
   };

@@ -4,7 +4,7 @@ angular.module('portfolio')
   this.project = {
     title: 'Personal Website',
     description: 'I created my personal website using AngularJS, Node with Express and fullpage.js plugin to create the fullpage effect on the website. I used Bootstrap for positioning and Material Design Lite components for style.',
-    tech: ['JavaScript', 'AngularJS', 'Nodejs', 'Express', 'Bootstrap', 'MDL'],
+    tech: ['JavaScript', 'AngularJS', 'Node', 'Express', 'Bootstrap', 'MDL'],
     url: 'http://portfolio.wjchung.com',
     github: 'https://github.com/chungw51993/Portfolio'
   };
