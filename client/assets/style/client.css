@@ -361,3 +361,8 @@ p.footer {
   width: 400px;
   left: 10px;
 }
+
+/* Arrow Styling */
+div.fp-controlArrow:hover {
+  cursor: pointer;
+}
