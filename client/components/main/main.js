@@ -6,3 +6,6 @@ angular.module('portfolio')
     templateUrl: '/components/main/main.html'
   };
 });
+
+const observer = lozad();
+observer.observe();
