@@ -63,7 +63,6 @@ i.arrow {
 div.about {
   background-color: rgb(37, 35, 35);
   color: white;
-  height: 900px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,17 +77,13 @@ h3.title {
 
 .headshot {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  align-items: center;
 }
 
 img.headshot {
   border-radius: 50%;
   position: relative;
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
 }
 
 h3.heading {
@@ -274,7 +269,7 @@ p.tech {
 
 /* Contact Styling */
 div.contact {
-  height: 900px !important;
+  height: 100%;
 }
 
 img.conbg {
